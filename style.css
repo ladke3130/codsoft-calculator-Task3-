@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.button{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border:none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 30px;
+   background-color: rgba(69, 23, 235, 0.836);
+   box-shadow: -8px -8px 15px rgba(22, 21, 16, 0.836);
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row-input{
+    width: 340px;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
